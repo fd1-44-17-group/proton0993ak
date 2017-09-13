@@ -1,87 +1,32 @@
-/* пика */
-div.p1,
-div.p2,
-div.p3
-{
-  width: 139px;
-  height: 196px;
-  background-image: url("cards2.png");
-  background-repeat: no-repeat;
-  background-position: -2px -190px;
-  overflow: hidden; 
-}
+.cards {
+            width: 140px;
+            height: 190px;
+            background-image: url(cards2.png);
+            background-repeat: no-repeat;
+            
+        }
 
-div.p2{
-      background-position: -2px -966px;
-}
+        .k {
+            background-position-x: -145px;
+        }
 
-div.p3{
-      background-position: -2px -2324px;
-}
+        .b {
+            background-position-x: -285px;
+        }
 
-/* черва */
-div.c4,
-div.c5,
-div.c6
-{
-  width: 139px;
-  height: 196px;
-  background-image: url("cards2.png");
-  background-repeat: no-repeat;
-  background-position: -435px -190px;
-  overflow: hidden; 
-}
+        .c {
+            background-position-x: -431px;
+        }
 
-div.c5{
-      background-position: -435px -966px;
-}
+        .three {
+            background-position-y: -191px;
+        }
 
-div.c6{
-      background-position: -435px -2324px;
-}
+        .seven {
+            background-position-y: -967px;
+        }
 
-/* буба */
-
-div.b7,
-div.b8,
-div.b9
-{
-  width: 139px;
-  height: 196px;
-  background-image: url("cards2.png");
-  background-repeat: no-repeat;
-  background-position: -291px -190px;
-  overflow: hidden; 
-}
-
-div.b8{
-      background-position: -291px -966px;
-}
-
-div.b9{
-      background-position: -291px -2324px;
-}
-
-/* креста */
-
-div.k10,
-div.k11,
-div.k12
-{
-  width: 139px;
-  height: 196px;
-  background-image: url("cards2.png");
-  background-repeat: no-repeat;
-  background-position: -146px -190px;
-  overflow: hidden; 
-}
-
-div.k11{
-      background-position: -146px -966px;
-}
-
-div.k12{
-      background-position: -146px -2324px;
-}
-
+        .ace_card {
+            background-position-y: -2325px;
+        }
 
