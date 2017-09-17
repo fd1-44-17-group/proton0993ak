@@ -1,0 +1,32 @@
+.group_block {
+    width: 100px;
+    height: 50px;
+    clear: both;
+    
+    
+}
+
+.group_block div{
+    width: 30px;
+    height: 50px;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+.none{
+    float: none;
+}
+
+.m{
+    margin-right: -70px;
+}
+
+.m_1{
+    margin-right: 39px;
+}
