@@ -1,0 +1,474 @@
+.table {
+    width: 100vmin;
+    height: 100vmin;
+    position: relative;
+}
+.cell {
+    width: 10vmin;
+    height: 10vmin;
+    float: left;
+    position: absolute;
+}
+
+.word{
+    text-align: center;
+    font-size: 2em;
+}
+.dark {
+    background-color: #474747;
+}
+
+.a1{
+    left: 10vmin;
+}
+
+.a2{
+    left: 20vmin;
+}
+
+.a3{
+    left: 30vmin;
+}
+
+.a4{
+    left: 40vmin;
+}
+
+.a5{
+    left: 50vmin;
+}
+
+.a6{
+    left: 60vmin;
+}
+
+.a7{
+    left: 70vmin;
+}
+
+.a8{
+    left: 80vmin;
+}
+
+.a9{
+    left: 90vmin;
+}
+
+.a10, .a11, .a12, .a13, .a14, .a15, .a16, .a17, .a18, .a19
+
+{
+    left: 0vmin;
+    top: 10vmin;
+}
+
+.a20, .a21, .a22, .a23, .a24, .a25, .a26, .a27, .a28, .a29{
+    left: 0vmin;
+    top: 20vmin;
+}
+
+.a30, .a31, .a32, .a33, .a34, .a35, .a36, .a37, .a38, .a39{
+    left: 0vmin;
+    top: 30vmin;
+}
+
+.a40, .a41, .a42, .a43, .a44, .a45, .a46, .a47, .a48, .a49{
+    left: 0vmin;
+    top: 40vmin;
+}
+
+.a50, .a51, .a52, .a53, .a54, .a55, .a56, .a57, .a58, .a59{
+    left: 0vmin;
+    top: 50vmin;
+}
+
+.a60, .a61, .a62, .a63, .a64, .a65, .a66, .a67, .a68, .a69{
+    left: 0vmin;
+    top: 60vmin;
+}
+
+.a70, .a71, .a72, .a73, .a74, .a75, .a76, .a77, .a78, .a79{
+    left: 0vmin;
+    top: 70vmin;
+}
+
+.a80, .a81, .a82, .a83, .a84, .a85, .a86, .a87, .a88, .a89{
+    left: 0vmin;
+    top: 80vmin;
+}
+
+.a90, .a91, .a92, .a93, .a94, .a95, .a96, .a97, .a98, .a99{
+    left: 0vmin;
+    top: 90vmin;
+}
+
+.a11{
+    left: 10vmin;
+}
+
+.a12{
+    left: 20vmin;
+}
+
+.a13{
+    left: 30vmin;
+}
+
+.a14{
+    left: 40vmin;
+}
+
+.a15{
+    left: 50vmin;
+}
+
+.a16{
+    left: 60vmin;
+}
+
+.a17{
+    left: 70vmin;
+}
+
+.a18{
+    left: 80vmin;
+}
+
+.a19{
+    left: 90vmin;
+}
+
+/* третья строка */
+
+.a20{
+    left: 0vmin;
+}
+
+.a21{
+    left: 10vmin;
+}
+
+.a22{
+    left: 20vmin;
+}
+
+.a23{
+    left: 30vmin;
+}
+
+.a24{
+    left: 40vmin;
+}
+
+.a25{
+    left: 50vmin;
+}
+
+.a26{
+    left: 60vmin;
+}
+
+.a27{
+    left: 70vmin;
+}
+
+.a28{
+    left: 80vmin;
+}
+
+.a29{
+    left: 90vmin;
+}
+
+/* 4 строка */
+
+.a30{
+    left: 0vmin;
+}
+
+.a31{
+    left: 10vmin;
+}
+
+.a32{
+    left: 20vmin;
+}
+
+.a33{
+    left: 30vmin;
+}
+
+.a34{
+    left: 40vmin;
+}
+
+.a35{
+    left: 50vmin;
+}
+
+.a36{
+    left: 60vmin;
+}
+
+.a37{
+    left: 70vmin;
+}
+
+.a38{
+    left: 80vmin;
+}
+
+.a39{
+    left: 90vmin;
+}
+
+/* 5 строка */
+
+.a40{
+    left: 0vmin;
+}
+
+.a41{
+    left: 10vmin;
+}
+
+.a42{
+    left: 20vmin;
+}
+
+.a43{
+    left: 30vmin;
+}
+
+.a44{
+    left: 40vmin;
+}
+
+.a45{
+    left: 50vmin;
+}
+
+.a46{
+    left: 60vmin;
+}
+
+.a47{
+    left: 70vmin;
+}
+
+.a48{
+    left: 80vmin;
+}
+
+.a49{
+    left: 90vmin;
+}
+
+/* 6 строка */
+
+.a50{
+    left: 0vmin;
+}
+
+.a51{
+    left: 10vmin;
+}
+
+.a52{
+    left: 20vmin;
+}
+
+.a53{
+    left: 30vmin;
+}
+
+.a54{
+    left: 40vmin;
+}
+
+.a55{
+    left: 50vmin;
+}
+
+.a56{
+    left: 60vmin;
+}
+
+.a57{
+    left: 70vmin;
+}
+
+.a58{
+    left: 80vmin;
+}
+
+.a59{
+    left: 90vmin;
+}
+
+/* 7 строка */
+
+.a60{
+    left: 0vmin;
+}
+
+.a61{
+    left: 10vmin;
+}
+
+.a62{
+    left: 20vmin;
+}
+
+.a63{
+    left: 30vmin;
+}
+
+.a64{
+    left: 40vmin;
+}
+
+.a65{
+    left: 50vmin;
+}
+
+.a66{
+    left: 60vmin;
+}
+
+.a67{
+    left: 70vmin;
+}
+
+.a68{
+    left: 80vmin;
+}
+
+.a69{
+    left: 90vmin;
+}
+
+/* 8 строка */
+
+.a70{
+    left: 0vmin;
+}
+
+.a71{
+    left: 10vmin;
+}
+
+.a72{
+    left: 20vmin;
+}
+
+.a73{
+    left: 30vmin;
+}
+
+.a74{
+    left: 40vmin;
+}
+
+.a75{
+    left: 50vmin;
+}
+
+.a76{
+    left: 60vmin;
+}
+
+.a77{
+    left: 70vmin;
+}
+
+.a78{
+    left: 80vmin;
+}
+
+.a79{
+    left: 90vmin;
+}
+
+/* 9 строка */
+
+.a80{
+    left: 0vmin;
+}
+
+.a81{
+    left: 10vmin;
+}
+
+.a82{
+    left: 20vmin;
+}
+
+.a83{
+    left: 30vmin;
+}
+
+.a84{
+    left: 40vmin;
+}
+
+.a85{
+    left: 50vmin;
+}
+
+.a86{
+    left: 60vmin;
+}
+
+.a87{
+    left: 70vmin;
+}
+
+.a88{
+    left: 80vmin;
+}
+
+.a89{
+    left: 90vmin;
+}
+
+/* 10 строка */
+
+.a90{
+    left: 0vmin;
+}
+
+.a91{
+    left: 10vmin;
+}
+
+.a92{
+    left: 20vmin;
+}
+
+.a93{
+    left: 30vmin;
+}
+
+.a94{
+    left: 40vmin;
+}
+
+.a95{
+    left: 50vmin;
+}
+
+.a96{
+    left: 60vmin;
+}
+
+.a97{
+    left: 70vmin;
+}
+
+.a98{
+    left: 80vmin;
+}
+
+.a99{
+    left: 90vmin;
+}
