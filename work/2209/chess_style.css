@@ -1,33 +1,33 @@
-p:first-child,
-p:nth-child(8),
-p:nth-child(15)
+a:first-child,
+a:nth-child(8),
+a:nth-child(15)
 {
     font-weight: bold;
     font-size: 1.5em;
 }
 
-p:nth-child(2),
-p:nth-child(9),
-p:nth-child(16)
+a:nth-child(2),
+a:nth-child(9),
+a:nth-child(16)
 
 {
     color:green;
 }
 
-p:nth-child(3),
-p:nth-child(10),
-p:nth-child(17){
+a:nth-child(3),
+a:nth-child(10),
+a:nth-child(17){
     color:red;
     font-weight: bold;
 }
 
-p:nth-child(5),
-p:nth-child(6),
-p:nth-child(7),
-p:nth-child(12),
-p:nth-child(13),
-p:nth-child(14),
-p:nth-child(19)
+a:nth-child(5),
+a:nth-child(6),
+a:nth-child(7),
+a:nth-child(12),
+a:nth-child(13),
+a:nth-child(14),
+a:nth-child(19)
 {
     color:blue;
     font-style: italic
@@ -35,58 +35,48 @@ p:nth-child(19)
 }
 
 @media screen and (min-width: 800px){
-    p:nth-child(5),
-p:nth-child(6),
-p:nth-child(7),
-p:nth-child(12),
-p:nth-child(13),
-p:nth-child(14),
-p:nth-child(19){
+p:nth-child(1),
+p:nth-child(2),
+p:nth-child(3)
+{
     float: left;
-    width: 30%;
+    width: 33.3%;
     
 }
 
-    a:nth-child(4),
-    p:nth-child(2),
-    p:nth-child(3),
-    p:nth-child(1),
-    a:nth-child(11),
-    p:nth-child(8),
-    p:nth-child(9),
-    p:nth-child(10)
-    a:nth-child(18),
-    p:nth-child(15),
-    p:nth-child(16),
-    p:nth-child(17)
-    {
-       clear: both;
-    }
+
+
+    
 }
 
 @media screen and (max-width: 400px){
-    p:first-child::before{
+    a:first-child::before{
         content: "<400px";
         display: block;
-        widows: 100px;
-        height: 50px;
+        width: 100px;
+        height: 73px;
     }
 }
 
 @media screen and (min-width: 400px) and (max-width: 800px){
-     p:first-child::after{
+     a:first-child::after{
         content: ">400px & <800px";
         display: block;
-        widows: 100px;
-        height: 50px;
+        width: 100px;
+        height: 73px;
     }
 }
 
 @media screen and (min-width: 800px){
-     p:first-child::after{
+     a:first-child::after{
         content: "800px";
         display: block;
-        widows: 100px;
-        height: 50px;
+        width: 100px;
+        height: 73px;
     }
+}
+
+p a {
+    margin-bottom: 1em;
+    display: block;
 }
