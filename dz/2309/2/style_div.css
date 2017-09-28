@@ -1,0 +1,155 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+    font-size: 100%;
+}
+
+.header,
+.footer
+{
+    text-align: center;
+    width: 100%;
+    background-color: #ADD8E6;
+   padding: 2% 0;
+}
+
+.header h1,
+.footer h1
+{
+    text-transform: uppercase;
+    font-size: 2em;
+    font-weight: normal;
+    color: #3643F7;
+}
+
+
+.left_block,
+.left_block___respons
+{
+	position: absolute;
+    width: 25%;
+    background-color: #F0E68C;
+    top: 0;
+    bottom: 0;
+}
+
+.left_block strong{
+	margin: 8% 7%;
+	display: block;
+}
+
+.left_block ul{
+	display: block;
+	padding-left: 10%;
+}
+
+.main_content{
+	position: relative;
+}
+
+.content{
+	margin-left: 25%;
+    padding: 3%;
+    background: #fff url("ball.png") right 0 repeat-y;
+    
+    box-sizing:  border-box;
+}
+
+.content p{
+	font-size: 1em;
+}
+
+.content img{
+	float: left;
+	margin-right: 5%;
+}
+
+.content h2{
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.footer{
+	clear: both;
+}
+
+.left_block__adapt{
+	display: none;
+}
+
+
+
+
+
+@media screen and (min-width: 400px)  and (max-width: 700px){
+	 .left_block{
+	 	width: 50%;
+	 	
+	 }  
+	 
+	 .content{
+	 	margin-left: 50%;
+	 	text-align: left;
+	 }
+	 
+	 .content img{
+	 	float: none;
+	 	width: 100%;
+	 }
+}
+
+@media screen and (max-width: 400px){
+	.left_block{
+	 	display: none;
+	 	
+	 } 
+	 
+	  .content{
+	 	width: 100%;
+	 	margin: 0;
+	 }
+	 
+	 .left_block__adapt{
+	 	display: block;
+	 	width: 100%;
+	 	background-color: #F0E68C;
+	 	padding: 10% 0;
+	 	
+	 }
+	 
+	 .left_block__adapt strong{
+	 	text-align: center;
+	 	display: block;
+	 	margin-bottom: 8%;
+	 }
+	 
+	 .left_block__adapt ul{
+	 	display: block;
+	 	margin-left: 30%;
+	 }
+	 
+	 .content img{
+	 	float: none;
+	 	width: 100%;
+	 	max-width: 100%;
+	 }
+	 
+	 .content p{
+	 	margin: 10% 0;
+	 }
+	 
+.header h1,
+.footer h1
+{
+    text-transform: uppercase;
+    font-size: 200%;
+    font-weight: normal;
+    color: #3643F7;
+}
+}
+
+
+
