@@ -1,0 +1,77 @@
+button{
+    position: relative;
+    top: 35%;
+    left: 10%;
+    width: 170px;
+    height: 50px;
+    outline: none;
+    border: none;
+    background-color: #E2E2E2;
+    color: #E59055;
+    border-radius: 10px;
+}
+
+button div
+{
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: #656565;
+    top: 25%;
+    left: 10%;
+    
+}
+
+button div::after
+{
+    content: "";
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: #fff;
+    top: 25%;
+    left: 10%;
+    display: none;
+    
+}
+
+
+button div:nth-child(2){
+    top: 40%;
+}
+
+button div:nth-child(3){
+    top: 55%;
+}
+
+button div:nth-child(4){
+    top: 70%;
+}
+
+button::before
+{
+    content: "";
+    position: absolute;
+    top: 9px;
+    right: -13px;
+    width: 35px;
+    height: 30px;
+    background-color: red;
+    transform: rotate(-136deg);
+    background-color: #E2E2E2;
+    display: none;
+}
+
+button:hover::before{
+    display: block;
+    background-color: #5A5A5A;
+}
+
+button:hover,
+button div:hover::after
+{
+    background-color: #5A5A5A;
+}
+
