@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 90vmin;
+    height: 90vmin;
+    background-color: #E3E3E1;
+    padding-top: 4vmin;
+    clear: both;
+}
+
+.centered{
+    margin: 0 auto;
+    width: 70vmin;
+    clear: both;
+    
+}
+
+.centered h1{
+    display: block;
+    background-color:  #999999;
+    padding: 2vmin 4vmin;
+    margin-bottom: 4vmin;
+    width: 64vmin;
+    font-weight: normal;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.centered .item_nav:nth-child(2){
+    display: inline-block;
+    width: 30vmin;
+    height: 35vmin;
+    
+    
+}
+
+.centered .item_nav:nth-child(2) h2,
+.centered .item_nav:nth-child(3) h2,
+.centered .item_nav:nth-child(4) h2,
+.centered .item_nav:nth-child(5) h2
+{
+    text-transform: uppercase;
+    font-size: 2.8vmin;
+    border-bottom: 1px solid #B8B8B7;
+    padding-bottom: 0.7vmin;
+}
+
+.centered .item_nav:nth-child(2) ul a:nth-child(4){
+    border: none;
+}
+
+.centered .item_nav ul{
+    list-style: none;
+    
+}
+
+
+
+.centered .item_nav ul li a{
+    display: block;
+    font-size: 2.5vmin;
+    color: #A27EAE;
+    font-weight: 500;
+    width: 30vmin;
+    height: 5vmin;
+    line-height: 5vmin;
+    text-decoration: none;
+    border-bottom: 1px solid #B8B8B7;
+    position: relative;
+    
+}
+
+.centered .item_nav ul li a:hover{
+    color: #fff;
+    background-color: #A27EAE;
+    padding-left: 2vmin;
+    border-radius: 1vmin;
+}
+
+.centered .item_nav ul li a.active{
+    font-weight: bold;
+}
+
+
+.centered .item_nav ul li a.active::before{
+    content: "";
+    display: inline-block;
+    width: 2vmin;
+    height: 3vmin;
+    padding-right: 1.5vmin;
+    background-image: url("1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.centered .item_nav ul li a.active:hover::before,
+.last:hover::before
+{
+    display: none;
+}
+
+.centered .item_nav:nth-child(3){
+    width: 30vmin;
+    float: right;
+    line-height: 3.4vmin;
+}
+
+.centered .item_nav:nth-child(4){
+    width: 30vmin;
+    display: inline-block;
+}
+
+
+.centered .item_nav:nth-child(5){
+    width: 30vmin;
+    float: right;
+}
+
+.last::before{
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 1vmin;
+    display: inline-block;
+    width: 3vmin;
+    height: 3vmin;
+    background-image: url("3.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.centered .item_nav ul li a.focus{
+    
+    background-color: #A27EAE;
+    color: #fff;
+    padding-left: 2vmin;
+    border-radius: 1vmin;
+}
+
+.centered .item_nav ul li .l {
+    border-bottom: none;
+}
+
