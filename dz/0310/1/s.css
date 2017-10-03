@@ -1,0 +1,21 @@
+.kol{
+    position: relative;
+    top: 10vmin;
+    left: 20vmin;
+    width: 50vmin;
+    height: 50vmin;
+    border-radius: 50%;
+    background-color: #FEBF13;
+    box-shadow: inset -6px 17px 29px 11px #FFEB3B;
+}
+
+.kol_in{
+    position: absolute;
+    width: 30vmin;
+    height: 30vmin;
+    background-color: #fff;
+    border-radius: 50%;
+    top: 10vmin;
+    left: 10vmin;
+    box-shadow: -6px 17px 29px 5px #FFEB3B;
+}
