@@ -1,0 +1,49 @@
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul li{
+    display: inline-block;
+    
+    
+    
+}
+
+ul li a{
+    width: 5vmin;
+    
+    display: block;
+    color: #68A6BE;
+    font-size: 5vmin;
+    text-align: center;
+    position: relative;
+    
+    
+}
+
+ul li + li{
+    margin-left: -0.8vmin;
+}
+
+ul li a::after{
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: -3vmin;
+    left: 0;
+    width: 5vmin;
+    height: 0.5vmin;
+    background-color: #ccc;
+    
+}
+
+ul li a:hover,
+ul li a:hover::after
+{
+    background-color: #FF6E22;
+    text-decoration: none;
+    border-color: #FF6E22;
+    
+}

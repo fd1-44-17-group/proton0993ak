@@ -1,0 +1,20 @@
+div.n1,
+div.n2,
+div.n3
+{
+  width: 139px;
+  height: 196px;
+  background-image: url("cards2.png");
+  background-repeat: no-repeat;
+  background-position: -2px -190px;
+  overflow: hidden; 
+}
+
+div.n2{
+      background-position: -2px -966px;
+}
+
+div.n3{
+      background-position: -2px -2324px;
+}
+
