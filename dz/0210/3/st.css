@@ -1,0 +1,42 @@
+.baner{
+  width: 100vmin;
+  height: 7vmin;
+  background-color:  #E0F5E1;
+  border: 2px solid #DCF3DD;
+  position: relative;
+  padding-top: 2vmin;
+
+}
+
+.baner .img1{
+    display: block;
+    float: left;
+    margin: 0 3vmin;
+    max-width: 5vmin;
+}
+
+.baner .img{
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 30%;
+    clear: both;
+    margin-right: 3vmin;
+    max-width: 5vmin;
+    
+}
+
+.baner b,
+.baner p{
+    font-size: 2vmin;
+}
+
+.baner b{
+    color: #425F90;
+    
+}
+
+.baner p{
+    color: #6BAD2F;
+    margin: 0;
+}
