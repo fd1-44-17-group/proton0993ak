@@ -1,0 +1,18 @@
+body{
+    font-size: 16px;
+}
+
+.container{
+    font-size: calc(0.5rem + 2vmin);
+    text-align: right;
+}
+
+.container h2{
+    text-transform: uppercase;
+    font-weight: normal;
+    color: #9F666E;
+}
+
+.container p{
+    line-height: 4vmin;
+}

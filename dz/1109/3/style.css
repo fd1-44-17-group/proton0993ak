@@ -1,0 +1,10 @@
+.bor{
+    border: 92px solid;
+    border-image: url(ramka.png) 100 stretch round;
+    text-align: center;
+    
+}
+
+.bor p{
+    line-height: 150%;
+}

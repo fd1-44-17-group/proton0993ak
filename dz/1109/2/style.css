@@ -1,0 +1,32 @@
+.cards {
+            width: 140px;
+            height: 190px;
+            background-image: url(cards2.png);
+            background-repeat: no-repeat;
+            
+        }
+
+        .k {
+            background-position-x: -145px;
+        }
+
+        .b {
+            background-position-x: -285px;
+        }
+
+        .c {
+            background-position-x: -431px;
+        }
+
+        .three {
+            background-position-y: -191px;
+        }
+
+        .seven {
+            background-position-y: -967px;
+        }
+
+        .ace_card {
+            background-position-y: -2325px;
+        }
+

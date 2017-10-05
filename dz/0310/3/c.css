@@ -1,0 +1,116 @@
+.chess-table{
+    width: 100vmin;
+    height: 100vmin;
+}
+
+.chess-table > div{
+   width: 100vmin;
+   height: 10vmin;
+}
+
+.chess-table > div > div{
+    width: 10vmin;
+    height: 10vmin;
+    float: left;
+}
+
+.chess-table > div:nth-child(odd):not(:first-child):not(:last-child) 
+> div:nth-child(even):not(:first-child):not(:last-child),
+.chess-table > div:nth-child(even):not(:last-child) 
+> div:nth-child(odd):not(:first-child)
+{
+    background-color: #ccc;
+}
+
+.chess-table > div:first-child > div:not(:first-child):not(:last-child),
+.chess-table > div:last-child  > div:not(:first-child):not(:last-child),
+.chess-table > div:nth-child(-n+10):not(:first-child):not(:last-child) 
+
+
+{
+    font-size: 2em;
+    text-align: center;
+}
+
+/* расстановка фигур */
+
+.chess-table > div:nth-child(3) > div:not(:first-child):not(:last-child)::before,
+.chess-table > div:nth-child(8) > div:not(:first-child):not(:last-child)::before,
+.chess-table > div:nth-child(2) > div:nth-child(2):not(:first-child):not(:last-child)::before,
+.chess-table > div:nth-child(2) > div:nth-child(9):not(:first-child):not(:last-child)::before,
+.chess-table > div:nth-child(9) > div:nth-child(2):not(:first-child):not(:last-child)::before,
+.chess-table > div:nth-child(9) > div:nth-child(9):not(:first-child):not(:last-child)::before,
+.chess-table > div:nth-child(2) > div:nth-child(3):not(:first-child):not(:last-child)::before,
+.chess-table > div:nth-child(2) > div:nth-child(8):not(:first-child):not(:last-child)::before,
+.chess-table > div:nth-child(9) > div:nth-child(3):not(:first-child):not(:last-child)::before,
+.chess-table > div:nth-child(9) > div:nth-child(8):not(:first-child):not(:last-child)::before,
+.chess-table > div:nth-child(2) > div:nth-child(4):not(:first-child):not(:last-child)::before,
+.chess-table > div:nth-child(2) > div:nth-child(7):not(:first-child):not(:last-child)::before,
+.chess-table > div:nth-child(9) > div:nth-child(4):not(:first-child):not(:last-child)::before,
+.chess-table > div:nth-child(9) > div:nth-child(7):not(:first-child):not(:last-child)::before,
+.chess-table > div:nth-child(2) > div:nth-child(5):not(:first-child):not(:last-child)::before,
+.chess-table > div:nth-child(2) > div:nth-child(6):not(:first-child):not(:last-child)::before,
+.chess-table > div:nth-child(9) > div:nth-child(6):not(:first-child):not(:last-child)::before,
+.chess-table > div:nth-child(9) > div:nth-child(5):not(:first-child):not(:last-child)::before
+{
+    content: "";
+    display: block;
+    background-size: 600%;
+    height: 10vmin;
+    background-image: url("chess.png");
+    background-repeat: no-repeat;
+    background-position: -52vmin 0vmin;
+}
+
+.chess-table > div:nth-child(8) > div:not(:first-child):not(:last-child)::before{
+    background-position: -52vmin -10vmin;
+}
+
+.chess-table > div:nth-child(2) > div:nth-child(2):not(:first-child):not(:last-child)::before,
+.chess-table > div:nth-child(2) > div:nth-child(9):not(:first-child):not(:last-child)::before{
+    background-position: -20vmin 0vmin;
+}
+.chess-table > div:nth-child(9) > div:nth-child(2):not(:first-child):not(:last-child)::before,
+.chess-table > div:nth-child(9) > div:nth-child(9):not(:first-child):not(:last-child)::before{
+    background-position: -20vmin -10vmin;
+}
+
+.chess-table > div:nth-child(2) > div:nth-child(3):not(:first-child):not(:last-child)::before,
+.chess-table > div:nth-child(2) > div:nth-child(8):not(:first-child):not(:last-child)::before{
+    background-position: -42vmin 0vmin;
+}
+.chess-table > div:nth-child(9) > div:nth-child(3):not(:first-child):not(:last-child)::before,
+.chess-table > div:nth-child(9) > div:nth-child(8):not(:first-child):not(:last-child)::before{
+    background-position: -42vmin -10vmin;
+}
+
+.chess-table > div:nth-child(2) > div:nth-child(4):not(:first-child):not(:last-child)::before,
+.chess-table > div:nth-child(2) > div:nth-child(7):not(:first-child):not(:last-child)::before{
+    background-position: -31vmin 0vmin;
+}
+.chess-table > div:nth-child(9) > div:nth-child(4):not(:first-child):not(:last-child)::before,
+.chess-table > div:nth-child(9) > div:nth-child(7):not(:first-child):not(:last-child)::before{
+    background-position: -31vmin -10vmin;
+}
+
+.chess-table > div:nth-child(2) > div:nth-child(5):not(:first-child):not(:last-child)::before{
+    background-position: -9vmin 0vmin;
+}
+.chess-table > div:nth-child(2) > div:nth-child(6):not(:first-child):not(:last-child)::before{
+    background-position: 1vmin 0vmin;
+}
+.chess-table > div:nth-child(9) > div:nth-child(6):not(:first-child):not(:last-child)::before{
+    background-position: 1vmin -10vmin;
+}
+.chess-table > div:nth-child(9) > div:nth-child(5):not(:first-child):not(:last-child)::before{
+    background-position: -9vmin -10vmin;
+}
+
+.chess-table > div:nth-child(4) > div:not(:first-child):not(:last-child):hover,
+.chess-table > div:nth-child(5) > div:not(:first-child):not(:last-child):hover,
+.chess-table > div:nth-child(6) > div:not(:first-child):not(:last-child):hover,
+.chess-table > div:nth-child(7) > div:not(:first-child):not(:last-child):hover
+{
+    transition: ease-in 2s;
+    background-color: #6600ff;
+}

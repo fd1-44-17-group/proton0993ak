@@ -1,0 +1,94 @@
+.calendar{
+    width: 80vmin;
+    height: 30vmin;
+   
+}
+
+.cal_item{
+    padding: 2vmin 0;
+    text-align: center;
+    background-color: #007854;
+    border-top-left-radius: 2vmin;
+    border-top-right-radius: 2vmin;
+    
+}
+
+.cal_item h1{
+    font-size: 6vmin;
+    text-transform: uppercase;
+    font-weight: normal;
+    margin: 0;
+    color: #fff;
+    letter-spacing: 0.1em;
+}
+
+.pora_item{
+    padding: 2vmin 0;
+    background-color: #000;
+    text-align: center;
+    position: relative;
+    
+}
+
+.pora_item::before,
+.pora_item::after
+{
+    content: "";
+    display: block;
+    position: absolute;
+    left: 8vmin;
+    top: 3vmin;
+    border: 2vmin solid #00B060;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    transform: rotate(135deg);
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.pora_item::after{
+    left: 68vmin;
+    top: 3vmin;
+    transform: rotate(-45deg);
+}
+
+.pora_item strong{
+    color: #fff;
+    font-size: 5vmin;
+    font-weight: normal;
+    letter-spacing: 0.1em;
+}
+
+.foot_item{
+    padding: 3vmin 0;
+    background-color: #E6E6E6;
+    border-bottom-left-radius: 2vmin;
+    border-bottom-right-radius: 2vmin;
+}
+
+.row {
+    margin-left: 5vmin;
+}
+
+.row  + .row{
+    margin-bottom: 4vmin;
+}
+
+
+.foot_item .row  a{
+    width: 9vmin;
+    height: 9vmin;
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+    text-align: center;
+    line-height: 9vmin;
+    font-weight: 700;
+    font-size: 5vmin;
+    
+}
+
+.foot_item .row  a:hover{
+    background-color: #007954;
+    color: #fff;
+}

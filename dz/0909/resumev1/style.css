@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px');
+@import url('https://fonts.googleapis.com/css?family=Kristi|Wire+One');
+@import url('https://fonts.googleapis.com/css?family=Stalinist+One');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(243,243,243);
+    font-family: 'Slabo 27px', serif;
+    font-size: 1em;
+
+}
+
+ul li{
+    letter-spacing: 0.2em;
+    box-shadow: 1px -2px 0px -1px #bebebe;
+}
+
+ul{
+    list-style: none;
+}
+
+p , ul{
+    padding-left: 15em;
+}
+
+ul li, p{
+    line-height: 180%;
+    text-transform: uppercase;
+    color: #5f5d0a;
+}
+
+h1{
+    font-family: 'Wire One', sans-serif;
+    font-family: 'Kristi', cursive;
+    font-weight: normal;
+    text-align: center;
+    font-size: 2rem;
+    color: #802445;
+    
+}
+
+.centered{
+    width: 900px;
+    margin: 0 auto;
+    box-shadow: 0px -1px 9px 0px #adadad;
+    border-radius: 3em;
+}
+
+hr{
+        box-shadow: 0px 0px 156px 4px #000000;
+        
+
+p{
+    font-family: 'Stalinist One', cursive;
+    font-size: 1.3rem;
+    padding-left: 5em;
+    
+}
+
+strong{
+    font-weight: 500;
+    color: red;
+}
+
+.personal_info_img{
+    margin-left: 50px;
+}
+
+div{
+    margin-bottom: 2em;
+    margin-bottom: 5px;
+}
+
