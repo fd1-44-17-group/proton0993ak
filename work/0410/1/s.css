@@ -1,0 +1,39 @@
+.bor{
+    width: 40px;        
+    height: 40px;
+    border: 10px solid ;
+    outline: 10px solid red;
+    position: relative;
+    top: 50%;
+    left: 50%;
+}
+
+.bor::before{
+    content: "";
+    display: block;
+    border: 20px solid green;
+    outline: 5px solid blue;
+    position: absolute;
+
+}
+
+
+.bor::after{
+    position: absolute;
+    content: "";
+    display: block;
+    border: 10px solid yellow;
+    top: 8px;
+    left: 10px;
+    outline: 5px solid orange;
+
+}
+
+h1{
+    background: liner-gradient();
+    color: rgba( 0, 0, 0, .0);
+    text-shadow: 1px 4px 6px #fff,
+    0 0 0 #000;
+    ;
+ 
+}
