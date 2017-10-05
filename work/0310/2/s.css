@@ -1,0 +1,30 @@
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+nav{
+    
+}
+
+nav ul li{
+    margin-bottom: 2vmin;
+}
+
+nav ul li a{
+    display: block;
+    width: 32vmin;
+    font-size: 4vmin;
+    color: #121920;
+    padding-left: 1vmin;
+
+    
+}
+
+nav ul li a:hover{
+    color: #fff;
+    background-color: #D83F4E;
+}
