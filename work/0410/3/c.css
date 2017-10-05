@@ -1,0 +1,58 @@
+.smart{
+    position: relative;
+    width: 60vmin;
+    height: 40vmin;
+    text-transform: uppercase;
+   font-weight: bold;
+    font-size: 6vmin
+}
+
+.x{
+    position: relative;
+    top: 4vmin;
+    left: -2.5vmin;
+    width: 15vmin;
+    height: 15vmin;
+    display: inline-block;
+    
+}
+
+
+.x .item,
+.x .item:nth-child(2),
+.x .item:nth-child(3),
+.x .item:nth-child(4),
+.x .item:nth-child(5)
+{
+    position: absolute;
+    width: 3vmin;
+    height: 3vmin;
+    background-color: #000;
+}
+
+.x .item:nth-child(1){
+    top: 5vmin;
+    left: 5vmin;
+    
+}
+
+
+.x .item:nth-child(2){
+    left: 11vmin;
+    top: 5vmin;
+    
+}
+.x .item:nth-child(3){
+    left: 5vmin;
+    top: 11vmin;
+}
+.x .item:nth-child(4){
+    top: 8vmin;
+    left: 8vmin;
+}
+.x .item:nth-child(5){
+    top: 11vmin;
+    left: 11vmin;
+  
+    
+}

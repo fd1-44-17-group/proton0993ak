@@ -1,0 +1,39 @@
+.treug_big{
+    width: 0%;
+    border: 15vmin solid #1D6319;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    position: absolute;
+    top: 15vmin;
+    left: 10vmin;
+ 
+}
+
+.container{
+    position: relative;
+    width: 50vmin;
+    height: 30vmin;
+
+}
+
+
+.treug_small,
+.treug_small:nth-child(3)
+
+{
+    position: absolute;
+    bottom: 0vmin;
+    left: 0vmin;
+     width: 0%;
+    border: 5vmin solid #1D6319;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    transform: rotate(-180deg);
+}
+
+.treug_small:nth-child(3){
+    left: 40vmin;
+}
+

@@ -1,0 +1,54 @@
+body{
+    background-color: #4DD0E2;
+}
+
+.container{
+    margin: 0 auto;
+    width: 100vmin;
+}
+
+.item + .item{
+    margin-left: 2vmin;
+}
+
+
+.item{
+    height: 40vh;
+    background-color: #EDEDED;
+    float: left;
+    
+}
+
+.item:first-child{
+    width: 5vmin;
+}
+
+.item:nth-child(2){
+    width: 10vmin;
+}
+
+.item:nth-child(3){
+    width: 15vmin;
+}
+
+.item:nth-child(4){
+    width: 20vmin;
+}
+
+.item:nth-child(5){
+    width: 30vmin;
+}
+
+
+@media screen and (max-width: 400px){
+.container{
+    position: relative;
+    top: 40vmin;
+    right: 40vmin;
+    
+    transform: rotate(-90deg);
+}
+
+
+
+}
