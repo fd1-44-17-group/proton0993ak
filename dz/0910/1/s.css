@@ -1,0 +1,29 @@
+.ball{
+    position: absolute;
+    width: 15vmin;
+    height: 15vmin;
+    background-color: #00DD00;
+    border-radius: 50%;
+    animation: ball 3s linear infinite,
+               position_left 15s linear infinite;
+    ;
+    
+}
+
+
+@keyframes ball{
+  0%{bottom: 100%;}
+  25%{bottom: 0%; width: 15vmin; height: 15vmin;}
+  30%{bottom: 0%; width: 13vmin; height: 9vmin; box-shadow: 0 5px 2px 1px;}
+  35%{bottom: 0%; width: 15vmin; height: 15vmin;}
+  70%{bottom: 100%;}
+   80%{bottom: 0%;}
+  100%{bottom: 100%;}
+}
+
+@keyframes position_left{
+    0%{left: 0;}
+    50%{left: 90%; }
+    75%{left:0%;}
+    100%{left: 90%;}
+}
