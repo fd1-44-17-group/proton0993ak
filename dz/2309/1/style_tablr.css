@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 100%;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+.header,
+.footer
+{
+    text-align: center;
+    width: 100%;
+    background-color: #ADD8E6;
+   padding: 2% 0;
+}
+
+.left_block,
+.left_block___respons
+{
+    width: 25%;
+    padding: 0 5%;
+    background-color: #F0E68C;
+    
+}
+
+.left_block strong,
+.left_block___respons strong
+{
+    display: block;
+    margin-bottom: 15%;
+    font-size: 1.3em;
+}
+
+.content{
+    width: 70%;
+    padding: 3%;
+    background: #fff url("ball.png") right 0 repeat-y;
+}
+
+.content h2{
+    text-align: center;
+    margin: 5% 0;
+}
+
+.content img{
+    margin-right: 4%;
+    float: left;
+}
+
+.header h1,
+.footer h1
+{
+    text-transform: uppercase;
+    font-size: 2em;
+    font-weight: normal;
+    color: #3643F7;
+}
+
+.left_menu__respons{
+    display: none;
+}
+
+
+@media screen and (max-width: 400px){
+    .left_menu__respons{
+        display: block;
+        width: 100%;
+    }
+    
+    .left_menu__respons ul{
+        margin-left: 30%;
+        margin-bottom: 10%;
+    }
+    
+    .left_menu__respons strong{
+        padding-top: 5%;
+        text-align: center;
+    }
+    
+.header h1,
+.footer h1
+{
+    text-transform: uppercase;
+    font-size: 1.2em;
+    line-height: 170%;
+    font-weight: normal;
+    color: #3643F7;
+}
+
+.content img{
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    float: none;
+    margin-bottom: 8%;
+}
+
+.content h2{
+    margin: 8% 0;
+    
+}
+    
+.content{
+   background: #fff url("ball.png") 0 0 repeat-x; 
+}    
+    
+    .left_block{
+        display: none;
+    }
+        
+    
+    
+}
