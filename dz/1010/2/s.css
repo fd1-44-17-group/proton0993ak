@@ -1,0 +1,37 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60vmin;
+    height: 60vmin;
+}
+
+.main .row{
+    display: flex;
+    
+}
+
+.main .row div{
+    width: 20vmin;
+    height: 10vmin;
+    line-height: 10vmin;
+    border: 1px solid;
+    display:flex;
+    justify-content: center;
+    
+}
+
+.main .row:nth-child(2) > div:nth-child(2),
+.main .row:nth-child(4) > div:nth-child(3),
+.main .row:nth-child(5) > div:nth-child(2),
+.main .row:nth-child(5) > div:nth-child(3),
+.main .row:nth-child(6) > div:nth-child(3),
+.main .row:nth-child(6) > div:nth-child(1)
+{
+          order: -1;
+}
+
+.main .row:nth-child(3){
+    flex-direction: row-reverse;
+}
+ 
